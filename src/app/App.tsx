@@ -77,7 +77,7 @@ export default function App() {
   }
 
   return (
-    <div className="h-screen bg-black flex flex-col items-center justify-between px-[16px] py-[60px] sm:px-6 sm:py-[60px] overflow-hidden">
+    <div className="bg-black flex flex-col items-center justify-between px-[16px] py-[60px] sm:px-6 sm:py-[60px] overflow-hidden">
       {/* Header */}
       <div className="w-full max-w-md mt-4 sm:mt-4 mb-8 sm:mb-6 text-center px-4">
         <h1 className="font-['Poppins',sans-serif] font-bold mb-2 text-[36px] sm:text-[48px]" style={{ lineHeight: '1', color: getButtonColor() }}>
@@ -89,7 +89,7 @@ export default function App() {
       </div>
 
       {/* Main content */}
-      <div className={`flex-1 flex flex-col items-center ${phase === 'all-revealed' ? 'justify-center' : 'justify-start'} w-full max-w-6xl px-[16px] pt-2 py-[0px] overflow-visible`}>
+      <div className={`flex-1 flex flex-col items-center ${phase === 'all-revealed' ? 'justify-center' : 'justify-start'} w-full max-w-6xl px-[16px] pt-0 py-[0px] overflow-visible`}>
         {isPileVisible ? (
           // Card pile - CLICKABLE
           <div 
