@@ -1,12 +1,3 @@
-/* stylelint-disable unknownAtRules */
-
 @import './fonts.css';
+@import './tailwind.css';
 @import './theme.css';
-
-/* stylelint-disable-next-line unknownAtRules */
-@tailwind base;
-/* stylelint-disable-next-line unknownAtRules */
-@tailwind components;
-/* stylelint-disable-next-line unknownAtRules */
-@tailwind utilities;
-
