@@ -77,7 +77,7 @@ export default function App() {
   }
 
   return (
-    <div className="h-screen bg-black flex flex-col items-center justify-between px-[16px] py-[40px] sm:px-6 sm:py-[20px] overflow-hidden">
+    <div className="h-screen bg-black flex flex-col items-center justify-between px-[16px] py-[80px] sm:px-6 sm:py-[60px] overflow-hidden">
       {/* Header */}
       <div className="w-full max-w-md mt-4 sm:mt-4 mb-8 sm:mb-6 text-center px-4">
         <h1 className="font-['Poppins',sans-serif] font-bold mb-2 text-[36px] sm:text-[48px]" style={{ lineHeight: '1', color: getButtonColor() }}>
