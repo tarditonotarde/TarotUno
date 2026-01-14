@@ -196,4 +196,11 @@ git push
 
 ---
 
+# copy and paste on terminnal
+
+npm run build
+git add docs
+git commit -m "test cache"
+git push
+
 **¡Tu app UNO Tarot estará live en minutos!** 🎴✨
